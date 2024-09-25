@@ -1,10 +1,11 @@
-import '@/assets/styles/globals.css'
+import "../assets/styles/globals.css";
+import Navbar from "../components/Navbar";
 
-const MainLayout = ({children}) => {
+const MainLayout = ({ children }) => {
   return (
     <html>
       <body>
-        <main>{children}</main>
+        <Navbar />
       </body>
     </html>
   );
